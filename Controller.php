@@ -6,8 +6,8 @@
       include ("Functions.php");
       $functions = new Functions;
 
-      echo "<br>".$functions -> findMaxRange($_GET['first'],$_GET['second']);
-      echo "<br>" . $functions -> countOnes($_GET['integer']);
-      echo "<br>" . $functions -> twoParts($_GET['path1'],$_GET['path2']);
-      echo "<br>" . $functions -> isSastryNumber($_GET['test']);
+      echo "<br>".$functions -> triangle($_GET['first'],$_GET['second']);
+      echo "<br>" . $functions -> countones($_GET['integer']);
+      echo "<br>" . $functions -> twoparts($_GET['path1'],$_GET['path2']);
+      echo "<br>" . $functions -> sastrynum($_GET['test']);
    ?>
